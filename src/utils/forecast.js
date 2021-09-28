@@ -19,9 +19,9 @@ const forecast = (latitude, longitude, callback) => {
         response.body.current.weather_descriptions[0] +
           ". It is currently " +
           response.body.current.temperature +
-          " degress out. There is a " +
+          " degress out and there is a " +
           response.body.current.precip +
-          "% chance of rain."
+          "% chance of rain in the area."
       );
     }
   });
